@@ -11,9 +11,8 @@
         style="@style/WhiteBox"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="@dimen/margin_wide"
         android:text="@string/box_two"
-        android:textColorLink="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="@+id/box_five_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/box_three_text" />
@@ -27,7 +26,6 @@
         android:layout_marginTop="@dimen/margin_wide"
         android:layout_marginRight="@dimen/margin_wide"
         android:text="@string/box_five"
-        android:textColorLink="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/box_two_text"
         app:layout_constraintTop_toBottomOf="@+id/box_four_text" />
@@ -41,7 +39,6 @@
         android:layout_marginTop="@dimen/margin_wide"
         android:layout_marginRight="@dimen/margin_wide"
         android:text="@string/box_four"
-        android:textColorLink="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/box_two_text"
         app:layout_constraintTop_toBottomOf="@+id/box_three_text" />
@@ -55,7 +52,6 @@
         android:layout_marginTop="@dimen/margin_wide"
         android:layout_marginRight="@dimen/margin_wide"
         android:text="@string/box_one"
-        android:textColorLink="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,7 +66,6 @@
         android:layout_marginTop="@dimen/margin_wide"
         android:layout_marginRight="@dimen/margin_wide"
         android:text="@string/box_Three"
-        android:textColorLink="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/box_two_text"
         app:layout_constraintTop_toBottomOf="@+id/box_one_text" />
