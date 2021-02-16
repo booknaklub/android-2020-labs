@@ -1,0 +1,2 @@
+com/example/fragmenstutorial/BuildConfig.java
+ com.example.fragmenstutorial.BuildConfig

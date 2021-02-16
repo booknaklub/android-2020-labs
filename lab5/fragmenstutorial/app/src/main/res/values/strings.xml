@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">fragmenstutorial</string>
+    <string name="chg_txt">CHANGE TEXT</string>
+    <string name="result_txt">Text Result</string>
+</resources>
